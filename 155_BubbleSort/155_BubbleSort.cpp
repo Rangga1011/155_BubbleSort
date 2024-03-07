@@ -52,6 +52,13 @@ void bubblesortarray() {                            //Prosedur untuk mengurutkan
 	}
 }
 
+int main() {
+	input();                        //Memanggil read()
+	bubblesortarray();              //Memanggil bubblesortarray()
+	display();                      //Memanggil display()
+	return 0;
+}
+
 
 
 
